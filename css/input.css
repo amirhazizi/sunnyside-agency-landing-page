@@ -22,3 +22,12 @@ body {
     font-family: 'Barlow',
         sans-serif;
 }
+
+.ul-font {
+    font-family: 'Barlow',
+        sans-serif;
+}
+
+.tracking-widest-more {
+    letter-spacing: .3rem;
+}
