@@ -32,15 +32,17 @@
         <img class="mx-auto" src="./images/icon-arrow-down.svg" alt="" />
       </div>
     </header>
-    <section>
-      <article>
+    <section class="items-center flex flex-col md:flex-row-reverse">
+      <article class="md:w-1/2">
         <img src="./images/mobile/image-transform.jpg" alt="" />
       </article>
-      <article class="text-center space-y-5 p-5 py-14 leading-7">
+      <article
+        class="text-center md:text-left space-y-5 p-5 py-14 leading-7 md:px-16 md:w-1/2"
+      >
         <h1 class="text-3xl text-cl_Verydarkdesaturatedblue font-black">
           Transform your brand
         </h1>
-        <p class="text-cl_Verydarkgrayishblue">
+        <p class="text-cl_Verydarkgrayishblue md:text-sm">
           We are a full-service creative agency specializing in helping brands
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
@@ -48,18 +50,22 @@
         <div class="relative">
           <a class="block uppercase z-10" href="#">Learn more</a>
           <div
-            class="absolute -translate-y-1/3 -translate-x-1/2 w-32 left-1/2 bottom-0 h-2 opacity-25 bg-cl_Yellow rounded-full"
+            class="absolute -translate-y-1/3 -translate-x-1/2 w-32 left-1/2 bottom-0 h-2 opacity-25 bg-cl_Yellow rounded-full md:left-0 md:translate-x-0 md:w-28"
           ></div>
         </div>
       </article>
+    </section>
+    <section class="grid md:grid-cols-2 items-center">
       <article>
         <img src="./images/mobile/image-stand-out.jpg" alt="" />
       </article>
-      <article class="text-center space-y-5 p-5 py-14 leading-7">
+      <article
+        class="text-center md:text-left space-y-5 p-5 py-14 leading-7 md:px-16"
+      >
         <h1 class="text-3xl text-cl_Verydarkdesaturatedblue font-black">
           Stand out to the right audience
         </h1>
-        <p class="text-cl_Verydarkgrayishblue">
+        <p class="text-cl_Verydarkgrayishblue md:text-sm">
           Using a collaborative formula of designers, researchers,
           photographers, videographers, and copywriters, we’ll build and extend
           your brand in digital places.
@@ -67,41 +73,45 @@
         <div class="relative">
           <a class="block uppercase z-10" href="#"> Learn more</a>
           <div
-            class="absolute -translate-y-1/3 -translate-x-1/2 w-32 left-1/2 bottom-0 h-2 opacity-25 bg-cl_Softred rounded-full"
+            class="absolute -translate-y-1/3 -translate-x-1/2 w-32 left-1/2 bottom-0 h-2 opacity-25 bg-cl_Softred rounded-full md:left-0 md:translate-x-0 md:w-28"
           ></div>
         </div>
       </article>
-      <article>
-        <div class="relative">
-          <img src="./images/mobile/image-graphic-design.jpg" alt="" />
-          <div
-            class="absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full px-4 space-y-3"
-          >
-            <h1 class="text-cl_Darkdesaturatedcyan text-2xl font-black">
-              Graphic design
-            </h1>
-            <p class="text-cl_Darkdesaturatedcyan text-sm">
-              Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients’
-              attention.
-            </p>
+    </section>
+    <section>
+      <div class="grid md:grid-cols-2">
+        <article>
+          <div class="relative">
+            <img src="./images/mobile/image-graphic-design.jpg" alt="" />
+            <div
+              class="absolute bottom-0 -translate-y-2/3 md:top-3/4 md:translate-y-0 left-1/2 -translate-x-1/2 text-center w-full px-4 space-y-3"
+            >
+              <h1 class="text-cl_Darkdesaturatedcyan text-2xl font-black">
+                Graphic design
+              </h1>
+              <p class="text-cl_Darkdesaturatedcyan text-sm">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
           </div>
-        </div>
-      </article>
-      <article>
-        <div class="relative">
-          <img src="./images/mobile/image-photography.jpg" alt="" />
-          <div
-            class="absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full px-4 space-y-3"
-          >
-            <h1 class="text-cl_Darkblue text-2xl font-black">Photography</h1>
-            <p class="text-cl_Darkblue text-sm">
-              Increase your credibility by getting the most stunning,
-              high-quality photos that improve your business image.
-            </p>
+        </article>
+        <article>
+          <div class="relative">
+            <img src="./images/mobile/image-photography.jpg" alt="" />
+            <div
+              class="absolute bottom-0 -translate-y-2/3 md:top-3/4 md:translate-y-0 left-1/2 -translate-x-1/2 text-center w-full px-4 space-y-3"
+            >
+              <h1 class="text-cl_Darkblue text-2xl font-black">Photography</h1>
+              <p class="text-cl_Darkblue text-sm">
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
+      </div>
     </section>
     <section class="py-12">
       <h2
@@ -109,62 +119,66 @@
       >
         Client testimonials
       </h2>
-      <div class="space-y-14">
+      <div
+        class="space-y-14 grid lg:grid-cols-3 lg:items-center lg:space-y-0 lg:space-x-4 lg:px-14"
+      >
         <article>
-          <div class="space-y-6 text-center px-6">
+          <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
             <img
-              class="rounded-full mx-auto h-16"
+              class="rounded-full mx-auto h-16 lg:h-12"
               src="./images/image-emily.jpg"
               alt=""
             />
-            <p class="leading-7 text-cl_Verydarkgrayishblue">
+            <p class="leading-7 text-cl_Verydarkgrayishblue lg:text-sm">
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
             </p>
             <div class="space-y-2">
               <h2 class="font-black">Emily R.</h2>
-              <p class="text-cl_Grayishblue">Marketing Director</p>
+              <p class="text-cl_Grayishblue lg:text-xs">Marketing Director</p>
             </div>
           </div>
         </article>
         <article>
-          <div class="space-y-6 text-center px-6">
+          <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
             <img
-              class="rounded-full mx-auto h-16"
+              class="rounded-full mx-auto h-16 lg:h-12"
               src="./images/image-thomas.jpg"
               alt=""
             />
-            <p class="leading-7 text-cl_Verydarkgrayishblue">
+            <p class="leading-7 text-cl_Verydarkgrayishblue lg:text-sm">
               Sunnyside’s enthusiasm coupled with their keen interest in our
               brand’s success made it a satisfying and enjoyable experience.
             </p>
             <div class="space-y-2">
               <h2 class="font-black">Thomas S.</h2>
-              <p class="text-cl_Grayishblue">Chief Operating Officer</p>
+              <p class="text-cl_Grayishblue lg:text-xs">
+                Chief Operating Officer
+              </p>
             </div>
           </div>
         </article>
         <article>
-          <div class="space-y-6 text-center px-6">
+          <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
             <img
-              class="rounded-full mx-auto h-16"
+              class="rounded-full mx-auto h-16 lg:h-12"
               src="./images/image-jennie.jpg"
               alt=""
             />
-            <p class="leading-7 text-cl_Verydarkgrayishblue">
+            <p class="leading-7 text-cl_Verydarkgrayishblue lg:text-sm">
               Incredible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
             </p>
             <div class="space-y-2">
               <h2 class="font-black">Jennie F.</h2>
-              <p class="text-cl_Grayishblue">Business Owner</p>
+              <p class="text-cl_Grayishblue lg:text-xs">Business Owner</p>
             </div>
           </div>
         </article>
       </div>
     </section>
     <section>
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-2 md:grid-cols-4">
         <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
         <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
         <img src="./images/desktop/image-gallery-cone.jpg" alt="" />
@@ -177,7 +191,9 @@
           <h1 class="text-2xl font-black text-cl_Darkdesaturatedcyan">
             sunnyside
           </h1>
-          <ul class="flex justify-between text-cl_Darkdesaturatedcyan ul-font">
+          <ul
+            class="flex justify-center space-x-10 text-cl_Darkdesaturatedcyan ul-font"
+          >
             <li><a class="ul-font" href="">About</a></li>
             <li><a class="ul-font" href="">Services</a></li>
             <li><a class="ul-font" href="">Projects</a></li>
