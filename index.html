@@ -10,21 +10,33 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <!-- fontawesome css -->
+    <link
+      rel="stylesheet"
+      href="./css/fontawesome-free-6.2.1-web/css/all.css"
+    />
     <!-- styles.css -->
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- fonts.css -->
     <link rel="stylesheet" href="./css/fonts.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="h-screen p-5 py-6">
+      <!-- navbar -->
       <nav>
+        <!-- navbar container -->
         <div class="flex justify-between items-center">
+          <!-- logo -->
           <img src="./images/logo.svg" alt="" />
+          <!-- hamburger icon -->
           <img
             class="block md:hidden"
             src="./images/icon-hamburger.svg"
             alt=""
           />
+          <!-- About Services Projects Contact -->
+          <!-- bigger screen navigation links -->
           <ul
             class="hidden md:flex justify-between space-x-8 items-center text-sm"
           >
@@ -43,6 +55,8 @@
           </ul>
         </div>
       </nav>
+      <!-- ebd of navbar -->
+      <!-- header content -->
       <div class="mt-14 space-y-8">
         <h1
           class="text-center text-cl_White font-bold text-4xl uppercase tracking-widest-more"
@@ -52,19 +66,25 @@
         <img class="mx-auto" src="./images/icon-arrow-down.svg" alt="" />
       </div>
     </header>
+    <!-- end of header -->
+    <!-- section 1 -->
     <section class="items-center flex flex-col md:flex-row-reverse">
+      <!-- image article -->
       <article class="md:w-1/2">
+        <!-- small screen -->
         <img
           class="block lg:hidden"
           src="./images/mobile/image-transform.jpg"
           alt=""
         />
+        <!-- big screen -->
         <img
           class="hidden lg:block"
           src="./images/desktop/image-transform.jpg"
           alt=""
         />
       </article>
+      <!-- text article -->
       <article
         class="text-center md:text-left space-y-5 p-5 py-14 leading-7 md:px-16 md:w-1/2 md:py-0"
       >
@@ -88,19 +108,25 @@
         </div>
       </article>
     </section>
+    <!-- end of section 1 -->
+    <!-- section 2 -->
     <section class="grid md:grid-cols-2 items-center">
+      <!-- image article -->
       <article class="">
+        <!-- small screen -->
         <img
           class="block md:hidden"
           src="./images/mobile/image-stand-out.jpg"
           alt=""
         />
+        <!-- big screen -->
         <img
           class="hidden md:block"
           src="./images/desktop/image-stand-out.jpg"
           alt=""
         />
       </article>
+      <!-- text article -->
       <article
         class="text-center md:text-left space-y-5 p-5 py-14 leading-7 md:px-16 md:py-0"
       >
@@ -124,8 +150,12 @@
         </div>
       </article>
     </section>
+    <!-- end of section 2 -->
+    <!-- section 3-->
     <section>
+      <!-- container -->
       <div class="grid md:grid-cols-2">
+        <!-- article 1 -->
         <article>
           <div class="relative">
             <img
@@ -152,6 +182,8 @@
             </div>
           </div>
         </article>
+        <!-- end of article 1 -->
+        <!-- article 2 -->
         <article>
           <div class="relative">
             <img
@@ -175,45 +207,60 @@
             </div>
           </div>
         </article>
+        <!-- end of article 2 -->
       </div>
     </section>
+    <!-- user section -->
     <section class="py-12">
+      <!-- section header -->
       <h2
         class="uppercase text-cl_Grayishblue tracking-widest-more text-center mb-14 text-sm"
       >
         Client testimonials
       </h2>
+      <!-- container -->
       <div
         class="space-y-14 grid lg:grid-cols-3 lg:items-center lg:space-y-0 lg:space-x-4 lg:px-14"
       >
+        <!-- user 1 -->
         <article>
+          <!-- container -->
           <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
+            <!-- user avatar -->
             <img
               class="rounded-full mx-auto h-16 lg:h-12"
               src="./images/image-emily.jpg"
               alt=""
             />
+            <!-- user opinion -->
             <p class="leading-7 text-cl_Verydarkgrayishblue lg:text-sm">
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
             </p>
+            <!-- user info -->
             <div class="space-y-2">
               <h2 class="font-black">Emily R.</h2>
               <p class="text-cl_Grayishblue lg:text-xs">Marketing Director</p>
             </div>
           </div>
         </article>
+        <!-- end of user 1 -->
+        <!-- user 2 -->
         <article>
+          <!-- container -->
           <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
+            <!-- user avatar -->
             <img
               class="rounded-full mx-auto h-16 lg:h-12"
               src="./images/image-thomas.jpg"
               alt=""
             />
+            <!-- user opinion -->
             <p class="leading-7 text-cl_Verydarkgrayishblue lg:text-sm">
               Sunnyside’s enthusiasm coupled with their keen interest in our
               brand’s success made it a satisfying and enjoyable experience.
             </p>
+            <!-- user info -->
             <div class="space-y-2">
               <h2 class="font-black">Thomas S.</h2>
               <p class="text-cl_Grayishblue lg:text-xs">
@@ -222,26 +269,36 @@
             </div>
           </div>
         </article>
+        <!-- end of user 2 -->
+        <!-- user 3 -->
         <article>
+          <!-- container -->
           <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
+            <!-- user avatar -->
             <img
               class="rounded-full mx-auto h-16 lg:h-12"
               src="./images/image-jennie.jpg"
               alt=""
             />
+            <!-- user opinion -->
             <p class="leading-7 text-cl_Verydarkgrayishblue lg:text-sm">
               Incredible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
             </p>
+            <!-- user detail -->
             <div class="space-y-2">
               <h2 class="font-black">Jennie F.</h2>
               <p class="text-cl_Grayishblue lg:text-xs">Business Owner</p>
             </div>
           </div>
         </article>
+        <!-- end of user 3 -->
       </div>
     </section>
+    <!-- end of user section -->
+    <!-- gallary section -->
     <section>
+      <!-- container -->
       <div class="grid grid-cols-2 md:grid-cols-4">
         <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
         <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
@@ -249,51 +306,92 @@
         <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
       </div>
     </section>
+    <!-- end of gallary section -->
+    <!-- footer -->
     <footer>
-      <div class="bg-green-200 p-6 px-7 space-y-14 py-14">
+      <div
+        class="bg-cl_Darkmoderatecyan bg-opacity-70 p-6 px-7 space-y-14 py-14 pb-7"
+      >
         <div class="text-center space-y-5">
           <h1 class="text-2xl ul-font text-cl_Darkdesaturatedcyan">
             sunnyside
           </h1>
+          <!-- navigation -->
           <ul
             class="flex justify-center space-x-10 text-cl_Darkdesaturatedcyan ul-font"
           >
+            <!-- about -->
             <li>
               <a class="ul-font transition-all hover:text-cl_White" href=""
                 >About</a
               >
             </li>
+            <!-- end of about -->
+            <!-- services -->
             <li>
               <a class="ul-font transition-all hover:text-cl_White" href=""
                 >Services</a
               >
             </li>
+            <!-- end of services -->
+            <!-- projects -->
             <li>
               <a class="ul-font transition-all hover:text-cl_White" href=""
                 >Projects</a
               >
             </li>
+            <!-- end of projects -->
           </ul>
         </div>
+        <!-- social icons -->
         <ul class="flex justify-center space-x-4">
+          <!-- facebook -->
           <li>
-            <a href=""><img src="./images/icon-facebook.svg" alt="" /></a>
+            <a class="text-xl transition-all hover:text-cl_White" href="#"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
           </li>
+          <!-- end of facebook -->
+          <!-- instagram -->
           <li>
-            <a href=""
-              ><img class="" src="./images/icon-instagram.svg" alt=""
-            /></a>
+            <a class="text-xl transition-all hover:text-cl_White" href=""
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
           </li>
+          <!-- end of instagram -->
+          <!-- twitter -->
           <li>
-            <a href=""><img src="./images/icon-twitter.svg" alt="" /></a>
+            <a class="text-xl transition-all hover:text-cl_White" href=""
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
           </li>
+          <!-- end of twitter -->
+          <!-- pinterest -->
           <li>
-            <a href=""><img src="./images/icon-pinterest.svg" alt="" /></a>
+            <a class="text-xl transition-all hover:text-cl_White" href=""
+              ><i class="fa-brands fa-pinterest"></i
+            ></a>
           </li>
+          <!-- end ofpinterest -->
         </ul>
+        <div class="text-center text-xs pb-0">
+          Challenge by
+          <a
+            class="text-cl_Darkdesaturatedcyan font-bold transition-all hover:text-cl_White"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="text-cl_Darkdesaturatedcyan font-bold transition-all hover:text-cl_White"
+            href="https://github.com/amirhazizi"
+            target="_blank"
+            >Amir Hossein Azizi</a
+          >
+        </div>
       </div>
     </footer>
-    <!-- About Services Projects Contact -->
+    <!-- end of footer -->
     <!-- <footer
       class="fixed bottom-0 left-1/2 -translate-x-1/2 bg-red-500 py-1 px-2 text-center text-xs rounded-t-xl"
     >

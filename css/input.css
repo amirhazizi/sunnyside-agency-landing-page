@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+global css
+ */
 html {
     font-size: 18px;
-}
-
-header {
-    background: url('../images/mobile/image-header.jpg') center/cover no-repeat;
-}
-
-@media (min-width:768px) {
-    header {
-        background: url('../images/desktop/image-header.jpg') center/cover no-repeat;
-    }
 }
 
 h1,
@@ -34,10 +27,23 @@ body {
         sans-serif;
 }
 
+/* custom class */
 .tracking-widest-more {
     letter-spacing: .3rem;
 }
 
+/* header bg image */
+header {
+    background: url('../images/mobile/image-header.jpg') center/cover no-repeat;
+}
+
+@media (min-width:768px) {
+    header {
+        background: url('../images/desktop/image-header.jpg') center/cover no-repeat;
+    }
+}
+
+/* learn more section 1&2 hover effect */
 .learnmore-btn:hover>div {
     opacity: 1;
 }
