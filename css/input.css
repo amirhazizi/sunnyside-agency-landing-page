@@ -5,3 +5,20 @@
 html {
     font-size: 18px;
 }
+
+header {
+    background: url('../images/mobile/image-header.jpg') center/cover no-repeat;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'Fraunces',
+        serif;
+}
+
+body {
+    font-family: 'Barlow',
+        sans-serif;
+}
