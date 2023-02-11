@@ -10,6 +10,12 @@ header {
     background: url('../images/mobile/image-header.jpg') center/cover no-repeat;
 }
 
+@media (min-width:768px) {
+    header {
+        background: url('../images/desktop/image-header.jpg') center/cover no-repeat;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -30,4 +36,8 @@ body {
 
 .tracking-widest-more {
     letter-spacing: .3rem;
+}
+
+.learnmore-btn:hover>div {
+    opacity: 1;
 }
