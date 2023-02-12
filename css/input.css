@@ -59,6 +59,7 @@ section {
     visibility: hidden;
 }
 
+
 /* active hidden */
 .show-nav {
     transform: translate(0, 2.5rem);
