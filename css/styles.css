@@ -553,10 +553,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -584,6 +580,10 @@ video {
 
 .mb-14 {
   margin-bottom: 3.5rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .mt-14 {
@@ -622,8 +622,25 @@ video {
   width: 8rem;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-full {
   width: 100%;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .grow {
@@ -723,9 +740,9 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
+.bg-cl_Darkmoderatecyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(168 34% 41% / var(--tw-bg-opacity));
 }
 
 .bg-cl_Softred {
@@ -741,25 +758,6 @@ video {
 .bg-cl_Yellow {
   --tw-bg-opacity: 1;
   background-color: hsl(51 100% 49% / var(--tw-bg-opacity));
-}
-
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-.bg-cl_Darkmoderatecyan {
-  --tw-bg-opacity: 1;
-  background-color: hsl(168 34% 41% / var(--tw-bg-opacity));
-}
-
-.bg-opacity-40 {
-  --tw-bg-opacity: 0.4;
 }
 
 .bg-opacity-70 {
@@ -778,11 +776,6 @@ video {
   padding: 1.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -796,11 +789,6 @@ video {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .py-12 {
@@ -820,10 +808,6 @@ video {
 
 .pb-0 {
   padding-bottom: 0px;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .pb-7 {
@@ -1050,6 +1034,12 @@ header {
     flex-direction: row-reverse;
   }
 
+  .md\:space-y-36 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(9rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(9rem * var(--tw-space-y-reverse));
+  }
+
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1064,14 +1054,14 @@ header {
     text-align: left;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-xs {
@@ -1137,6 +1127,16 @@ header {
   .lg\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-sm {
