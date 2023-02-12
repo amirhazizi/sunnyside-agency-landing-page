@@ -639,10 +639,6 @@ video {
   width: 100%;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
-}
-
 .grow {
   flex-grow: 1;
 }
@@ -739,6 +735,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
@@ -979,6 +979,10 @@ header {
   header {
     background: url('../images/desktop/image-header.jpg') center/cover no-repeat;
   }
+}
+
+section {
+  max-width: 1440px;
 }
 
 /* learn more section 1&2 hover effect */

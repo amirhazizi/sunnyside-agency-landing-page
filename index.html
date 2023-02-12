@@ -83,7 +83,7 @@
       <!-- header content -->
       <div class="mt-14 space-y-8 md:space-y-36">
         <h1
-          class="text-center text-cl_White font-black text-4xl uppercase tracking-widest-more"
+          class="headers text-center text-cl_White font-black text-4xl uppercase tracking-widest-more"
         >
           We are creatives
         </h1>
@@ -92,7 +92,7 @@
     </header>
     <!-- end of header -->
     <!-- section 1 -->
-    <section class="max-w-6xl mx-auto">
+    <section class="mx-auto">
       <!-- articles 1 -->
       <div class="items-center flex flex-col md:flex-row-reverse">
         <!-- image article -->
@@ -178,7 +178,7 @@
     </section>
     <!-- end of section 1 -->
     <!-- section 2-->
-    <section class="max-w-6xl mx-auto">
+    <section class="mx-auto">
       <!-- container -->
       <div class="grid md:grid-cols-2">
         <!-- article 1 -->
@@ -238,10 +238,10 @@
     </section>
     <!-- end of section 2 -->
     <!-- user section -->
-    <section class="py-12">
+    <section class="py-12 overflow-hidden">
       <!-- section header -->
       <h2
-        class="uppercase text-cl_Grayishblue tracking-widest-more text-center mb-14 text-sm"
+        class="headers uppercase text-cl_Grayishblue tracking-widest-more text-center mb-14 text-sm"
       >
         Client testimonials
       </h2>
@@ -250,7 +250,7 @@
         class="space-y-14 grid lg:grid-cols-3 lg:items-center lg:space-y-0 lg:space-x-4 lg:px-14"
       >
         <!-- user 1 -->
-        <article>
+        <article class="users">
           <!-- container -->
           <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
             <!-- user avatar -->
@@ -273,7 +273,7 @@
         </article>
         <!-- end of user 1 -->
         <!-- user 2 -->
-        <article>
+        <article class="users">
           <!-- container -->
           <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
             <!-- user avatar -->
@@ -298,7 +298,7 @@
         </article>
         <!-- end of user 2 -->
         <!-- user 3 -->
-        <article>
+        <article class="users">
           <!-- container -->
           <div class="space-y-6 text-center px-6 lg:px-0 lg:space-y-10">
             <!-- user avatar -->
@@ -340,7 +340,7 @@
         class="bg-cl_Darkmoderatecyan bg-opacity-70 p-6 px-7 space-y-14 py-14 pb-7"
       >
         <div class="text-center space-y-5">
-          <h1 class="text-2xl ul-font text-cl_Darkdesaturatedcyan">
+          <h1 class="headers text-2xl ul-font text-cl_Darkdesaturatedcyan">
             sunnyside
           </h1>
           <!-- navigation -->
@@ -348,21 +348,21 @@
             class="flex justify-center space-x-10 text-cl_Darkdesaturatedcyan ul-font"
           >
             <!-- about -->
-            <li>
+            <li class="icons">
               <a class="ul-font transition-all hover:text-cl_White" href=""
                 >About</a
               >
             </li>
             <!-- end of about -->
             <!-- services -->
-            <li>
+            <li class="icons">
               <a class="ul-font transition-all hover:text-cl_White" href=""
                 >Services</a
               >
             </li>
             <!-- end of services -->
             <!-- projects -->
-            <li>
+            <li class="icons">
               <a class="ul-font transition-all hover:text-cl_White" href=""
                 >Projects</a
               >
@@ -419,6 +419,8 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- app.js -->
     <script src="./js/app.js" type="module"></script>
   </body>
