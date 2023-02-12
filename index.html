@@ -26,15 +26,39 @@
       <!-- navbar -->
       <nav>
         <!-- navbar container -->
-        <div class="flex justify-between items-center">
+        <div class="relative flex justify-between items-center">
           <!-- logo -->
           <img src="./images/logo.svg" alt="" />
           <!-- hamburger icon -->
           <img
+            id="menu"
             class="block md:hidden"
             src="./images/icon-hamburger.svg"
             alt=""
           />
+          <!-- small screen nav -->
+          <div
+            class="small-screen absolute bg-cl_White translate-y-10 top-0 left-0 w-full"
+          >
+            <ul
+              class="text-center text-lg space-y-6 p-3 py-14 pb-9 text-cl_Darkgrayishblue"
+            >
+              <li>
+                <a class="ul-font" href="#">About</a>
+              </li>
+              <li><a class="ul-font" href="#">Service</a></li>
+              <li><a class="ul-font" href="#">Projects</a></li>
+              <li>
+                <a href="#"
+                  ><button
+                    class="uppercase text-xs text-black p-4 bg-cl_Yellow px-6 rounded-full hover:bg-opacity-30 transition-all hover:text-cl_White"
+                  >
+                    contact
+                  </button></a
+                >
+              </li>
+            </ul>
+          </div>
           <!-- About Services Projects Contact -->
           <!-- bigger screen navigation links -->
           <ul

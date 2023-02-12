@@ -47,3 +47,21 @@ header {
 .learnmore-btn:hover>div {
     opacity: 1;
 }
+
+.small-screen {
+    clip-path: polygon(0 10%, 93% 10%, 100% 0, 100% 100%, 0 100%);
+    transition: transform 250ms, visibility 0s;
+    transform: translate(0, -10%);
+    visibility: hidden;
+}
+
+/* active hidden */
+.show-nav {
+    transform: translate(0, 2.5rem);
+    visibility: visible;
+}
+
+.stop-scroll {
+    display: 100%;
+    overflow: hidden;
+}
